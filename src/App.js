@@ -1,26 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import NavBar from './Navbar';
+import HomePage from './Pages/Homepage';
+import About from './Pages/About';
+import Calendar from './Pages/Calendar';
+import Contact from './Pages/Contact';
+import Gallery from './Pages/Gallery';
+import Newsletter from './Pages/Newsletter';
+import ShopOnline from './Pages/ShopOnline';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <Router>
+        <div className="App">
+        <section>
+        <NavBar />
+      </section>
+      <section>
+         <header>Ladybugs Paper Crafts and More</header>
+      </section>
+    <Switch>
+      <Route path="/" exact component={HomePage} />
+      <Route path="/AboutUs" exact component={About} />
+      <Route path="/Calendar" exact component={Calendar} />
+      <Route path="/Contact" exact component={Contact} />
+      <Route path="/Gallery" exact component={Gallery} />
+      <Route path="/Newsletter" exact component={Newsletter} />
+      <Route path="/Shop" exact component={ShopOnline} />
+    </Switch>
       </div>
+      </Router>
     );
   }
 }
