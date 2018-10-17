@@ -1,14 +1,66 @@
 .App {
   text-align: center;
+  background-color: rgb(233, 233, 233);
 }
+
+/*NavBar*/
 
 .NavBar {
   display: flex;
   justify-content: space-around;
+  padding: 1em;
 }
 
 .NavLinks {
   font-size: 2em;
   text-decoration: none;
   color: purple;
+}
+
+/*HomePage*/
+
+.StoreHours {
+  display: flex;
+  list-style: none;
+  margin-left: 2em;
+}
+
+.UpcomingEvents {
+  display: flex;
+  font-size: 2em;
+  text-decoration: none;
+  color: purple;
+  width: 20%;
+  justify-content: center;
+  margin-left:2em;
+}
+
+.HoursandRegistry {
+  display: flex;
+  flex-direction: row;
+}
+
+.EmailList {
+  display: flex;
+  border: .01em solid black;
+  width: 25%;
+  flex-direction: column;
+  margin: 3em;
+  background-color:rgb(245, 245, 245);
+}
+
+.ReturnandCancelation {
+  display: flex;
+  width:70%;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15%;
+}
+
+.emailList {
+  display: flex;
+  width: 70%;
+  margin: 1em;
+  margin-left: 3.5em;
+  
 }

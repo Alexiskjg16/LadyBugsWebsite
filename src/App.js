@@ -30,6 +30,10 @@ class App extends Component {
       <Route path="/Newsletter" exact component={Newsletter} />
       <Route path="/Shop" exact component={ShopOnline} />
     </Switch>
+      <section>
+                    <h6>Copyright © 2007-2018 - Lady Bugs Paper Crafts & More</h6>
+                    <h6>Website Design by Alexis Grisham</h6>
+      </section>
       </div>
       </Router>
     );
