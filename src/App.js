@@ -19,11 +19,11 @@ class App extends Component {
         <NavBar />
       </section>
       <section>
-         <header>Ladybugs Paper Crafts and More</header>
+         <header className="LadyBugHeader">Ladybugs Paper Crafts and More</header>
       </section>
     <Switch>
       <Route path="/" exact component={HomePage} />
-      <Route path="/AboutUs" exact component={About} />
+      <Route path="/About" exact component={About} />
       <Route path="/Calendar" exact component={Calendar} />
       <Route path="/Contact" exact component={Contact} />
       <Route path="/Gallery" exact component={Gallery} />

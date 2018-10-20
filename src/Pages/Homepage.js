@@ -7,13 +7,12 @@ class HomePage extends Component {
             <div>
                 <h1>You can find us at 11532
                    Palmbrush Trail, Lakewood Ranch (Bradenton), FL</h1>
-                <h1> 941 725 4537</h1>
-                <h1>We are in the same plaza as SEA STAR CAFE</h1>
-                <section className="EmailList">
+                <h1> 941-725-4537</h1>
+                <form className="EmailList">
                     <h3> Join our email list! </h3>
                     <input type='text' placeholder='email' className="emailList"/>
-                    <button className="emailList">Submit</button>
-                </section>
+                    <button id="submitbutton">Submit</button>
+                </form>
                 <Link to="/Calendar" className="UpcomingEvents"> Upcoming Events! </Link>
                <section className="HoursandRegistry">
                 <ul>

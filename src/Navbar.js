@@ -12,7 +12,7 @@ class NavBar extends Component {
             <Link to="/Contact" className="NavLinks"> Contact Us </Link>
             <Link to="/Gallery" className="NavLinks"> Gallery </Link>
             <Link to="/Newsletter" className="NavLinks"> Newsletter </Link>
-            <Link to="/ShopOnline" className="NavLinks"> Shop </Link>
+            <Link to="/Shop" className="NavLinks"> Shop </Link>
             </div>
         )
     }

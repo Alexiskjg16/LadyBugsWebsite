@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Calendar extends Component {
     render() {
         return(
-            <div>
-
+            <div> 
+              <h2> Calendar coming soon!</h2>
             </div>
         )
     }

@@ -1,6 +1,13 @@
 .App {
   text-align: center;
   background-color: rgb(233, 233, 233);
+  background-size: cover;
+  padding-bottom:5em;
+}
+
+.LadyBugHeader {
+  font-size: 3em;
+  text-shadow: 50%;
 }
 
 /*NavBar*/
@@ -47,6 +54,14 @@
   flex-direction: column;
   margin: 3em;
   background-color:rgb(245, 245, 245);
+}
+
+#submitbutton {
+  display: flex;
+  width: 5em;
+  justify-content: center;
+  margin-left: 40%;
+  margin-bottom: 2em;
 }
 
 .ReturnandCancelation {
